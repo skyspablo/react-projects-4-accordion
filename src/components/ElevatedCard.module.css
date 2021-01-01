@@ -1,0 +1,28 @@
+.sisdom-ecard{
+    box-sizing: border-box;
+    border: 2px solid rgba(0,0,0,.15);
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.15);
+}
+.sisdom-ecard-title{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+}
+.sisdom-ecard-title-icon{
+    width: 2rem;
+    height: 2rem;
+    line-height: 1.85rem;
+    text-align: center;
+    background: darkgrey;
+    color:#222;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sisdom-ecard-content{
+    margin-top: 15px;
+    text-align: justify;
+}
